@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar-dark {
+    background-color: #1C1E1F;
+}
+
+.sidebar-dark-item {
+    background-color: #2D2F31;
+}
+
+.dark-1 {
+    background-color: #101116;
+}
+
+.dark-2 {
+    background-color: #0c0d10;
+}
+
+.dark-3 {
+    background-color: #20212b;
+}
+
+.dark-4 {
+    background-color: #040405;
+}
