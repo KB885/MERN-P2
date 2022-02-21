@@ -4,7 +4,7 @@ const User = require('../models/user');
 
 router.get('/', (req, res) => {
     User.find(function(err, users) {
-        res.json(users);
+        console.log("hmm");
     });
 });
 

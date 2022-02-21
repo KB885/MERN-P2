@@ -10,7 +10,7 @@ import {
 import './assets/index.css';
 
 // Layouts
-import App from './App';
+import App from './layouts/app';
 
 ReactDOM.render(
   <React.StrictMode>
