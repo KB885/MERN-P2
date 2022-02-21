@@ -1,12 +1,13 @@
 const express = require('express');
-const dotenv = require('dotenv');
 const app = express();
 
-require('./db/mongo');
-
+// Routess Path
 const usersRouter = require('./routes/users');
-app.use('/users', usersRouter);
 
-dotenv.config();
-const PORT = process.env.PORT || 4000;
+// Routess
+app.use('/api/users', usersRouter);
+
+// Database connection
+require('./db/mongo');
+const PORT = 3000;
 app.listen(PORT, console.log(`Server started on ${PORT}`));
