@@ -9,5 +9,5 @@ app.use('/api/users', usersRouter);
 
 // Database connection
 require('./db/mongo');
-const PORT = 3000;
+const PORT = 4000;
 app.listen(PORT, console.log(`Server started on ${PORT}`));
