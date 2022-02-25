@@ -1,0 +1,27 @@
+{
+  "name": "mern-p2",
+  "version": "1.0.0",
+  "description": "MERN-P2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start",
+    "backend": "cd server/src && nodemon server.js",
+    "dev": "concurrently \"npm run backend\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KB885/MERN-P2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KB885/MERN-P2/issues"
+  },
+  "homepage": "https://github.com/KB885/MERN-P2#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
